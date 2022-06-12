@@ -38,7 +38,7 @@ const calculate = () =>{
             result = parseFloat(prevNumb)-parseFloat(curNumb);
             break;
         case "*":
-            result = (parseFloat(prevNumb)*parseFloat(curNumb)).toFixed(3);
+            result = parseFloat(prevNumb)*parseFloat(curNumb);
             break;
         case "/":
             result = (parseFloat(prevNumb)/parseFloat(curNumb)).toFixed(3);
